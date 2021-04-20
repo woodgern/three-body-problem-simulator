@@ -1,0 +1,61 @@
+.body-inputs {
+	margin: 30px;
+	width: 375px;
+}
+
+.body-inputs-label {
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+}
+
+.body-input {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.label {
+	margin-right: 8px;
+}
+
+.input {
+	float:right;
+}
+
+.mass-input {
+	width: 95px;
+}
+
+.mass-factor-input {
+	width: 30px;
+}
+
+.velocity-input {
+	width: 125px;
+	float:right;
+}
+
+.button {
+	height: auto;
+	text-align: center;
+	display: inline;
+}
+
+.simulation-frame {
+	background-color: black;
+	height: 100vh;
+	width: 100%;
+}
+
+#inset {
+	width: 150px;
+	height: 150px;
+	background-color: transparent;
+	border: none;
+	margin: 0;
+	padding: 0px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	z-index: 100;
+}
